@@ -1,0 +1,14 @@
+
+$color-1: #ffffff;
+
+body {
+  font-size: 16px;
+  h1 {
+    color: $color-1;
+  }
+  &>h1 {
+      color: red;
+  }
+}
+
+@import "navbar";
