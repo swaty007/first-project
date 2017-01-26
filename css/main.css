@@ -1,4 +1,27 @@
+@charset "UTF-8";
 body{font-size:16px}
-body h1{color:#fff}
-body>h1,nav{color:red}
-.container-fluid1{background-color:rgba(38,39,50,.85)}
+.fccolor{background-color:#f7f7f7!important}
+.page5left,.page5right{background-color:#fff;bottom:30px;position:relative}
+.page5right{left:20px}
+.page5left{right:100px}
+nav{color:rgba(38,39,50,.85)}
+body div .firsth{color:#fff}
+.navbar-main{border-radius:0;border:none;height:75px;margin-bottom:0}
+.navbar-main .nav-links{color:#272727;font-family:Poppins,sans-serif;font-size:.875em;font-weight:500;line-height:46px}
+.navbar-main .navbar-brand{padding:24px 15px}
+html body .main-screen{background:url(/Imagine/main-screen.jpg),50% 50%;background-size:cover;height:calc(100vh - 75px)}
+html body .main-screen .content-block{text-align:center}
+html body .main-screen .content-block .main-slick{margin-top:50px}
+html body .main-screen .content-block .main-slick .dollar-color{color:#38c695;margin-top:20px}
+html body .main-screen .content-block .main-slick .time-color{color:#b27cf5;margin-top:20px}
+html body .main-screen .content-block .main-slick .ok-color{color:#feb960;margin-top:20px}
+html body .main-screen .content-block .header-text{color:#fff;font-family:"Libre Baskerville",serif;font-size:3.75em;font-weight:400;line-height:85px;margin-top:15vh}
+html body .main-screen .content-block .btn-main{margin-top:50px;width:180px;height:50px;border-radius:25px;background-color:#fc5f45;outline:0;color:#fff;text-transform:uppercase;font-family:Poppins,sans-serif;font-size:1em;font-weight:600;border:none}
+.border1{border:1px solid #bbb}
+.page1-imagine{margin:50px 0}
+html body .ab-us{position:relative;left:-50px;top:100px;background-color:#fff;padding:40px 60px;border-bottom:3px solid #fc5f45}
+html body .ab-us:after,html body .ab-us:before{content:'';position:absolute;top:100%;right:0}
+html body .ab-us .page1-header{font-family:"Libre Baskerville",serif}
+html body .ab-us .page1-text{font-family:Poppins,sans-serif}
+html body .ab-us:before{border-bottom:3px solid #38c695;width:calc(100% - 30%)}
+html body .ab-us:after{border-bottom:3px solid #b27cf5;width:calc(100% - 65%)}
