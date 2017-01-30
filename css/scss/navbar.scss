@@ -8,8 +8,8 @@ body div .firsth {
 .navbar-main {
   border-radius: 0;
   border: none;
-  height:75px;
   margin-bottom: 0;
+  text-align: center;
   .nav-links{
     color: $color-10;
     font-family: $font-1;
@@ -21,4 +21,3 @@ body div .firsth {
     padding: 24px 15px;
   }
 }
-
