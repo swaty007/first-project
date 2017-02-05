@@ -1,0 +1,102 @@
+.page4screen {
+  background-color: $color-9;
+}
+
+.page4-imagine {
+ // border: 5px solid $color-2;
+}
+.page4-column {
+  background-color: $color-2;
+  min-height:350px;
+.image-block {
+  overflow: hidden;
+  height: 270px;
+  >img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+}
+}
+.page4-1column {
+  border-bottom: 3px solid $color-3;
+}
+.page4-2column {
+  border-bottom: 3px solid $color-4;
+}
+.page4-3column {
+  border-bottom: 3px solid $color-5;
+}
+.page4-4column {
+  border-bottom: 3px solid $color-6;
+}
+
+.page4-text-p {
+  color: $color-8;
+  font-family: $font-1;
+  font-size: 0.813em;
+  font-weight: 400;
+  line-height: 80px;
+}
+
+.page4-text-name1 {
+  color: $color-3;
+  font-family: $font-1;
+  font-size: 1.125em;
+  font-weight: 500;
+  line-height: 80px;
+}
+.page4-text-name2 {
+  color: $color-4;
+  font-family: $font-1;
+  font-size: 1.125em;
+  font-weight: 500;
+  line-height: 80px;
+}
+.page4-text-name3 {
+  color: $color-5;
+  font-family: $font-1;
+  font-size: 1.125em;
+  font-weight: 500;
+  line-height: 80px;
+}
+.page4-text-name4 {
+  color: $color-6;
+  font-family: $font-1;
+  font-size: 1.125em;
+  font-weight: 500;
+  line-height: 80px;
+}
+@media  (max-width: 990px) {
+  html body .page4-comment {background-color: white;}
+}
+.page4-comment {
+  background:url("/Imagine/backgroundcomment.png") no-repeat;
+  margin: 30px 0 100px;
+  padding: 50px;
+  h3 {
+    color: $color-10;
+    font-family: $font-1;
+    font-size: 1.250em;
+    font-weight: 500;
+    line-height: 80px;
+  }
+  p {
+    color: $color-8;
+    font-family: $font-1;
+    font-size: 0.938em;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 30px;
+  }
+  .page4-social {
+    margin-top: 130px;
+    margin-left: 30px;
+    div {
+      padding-bottom: 5px;
+      p {
+
+      }
+    }
+  }
+}

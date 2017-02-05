@@ -1,23 +1,18 @@
 nav {
   color: $color-1;
 }
-body div .firsth {
-  color: $color-2;
-  }
 
 .navbar-main {
   border-radius: 0;
   border: none;
   margin-bottom: 0;
   text-align: center;
-  .nav-links{
+  .nav-links {
     color: $color-10;
     font-family: $font-1;
     font-size: 0.875em;
     font-weight: 500;
     line-height: 46px;
   }
-  .navbar-brand{
-    padding: 24px 15px;
-  }
+
 }

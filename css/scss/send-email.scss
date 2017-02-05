@@ -1,0 +1,48 @@
+html body .send-email-screen {
+  .send-email {
+    text-align: center;
+    input {
+      display:inline;
+      width:300px;
+      height:50px;
+      border-radius: 25px 0 0 25px;
+      @media  (max-width: 504px) {
+        border-radius: 25px;
+      }
+    }
+
+    h2 {
+      color: $color-10;
+      font-family: $font-1;
+      font-size: 1.875em;
+      font-weight: 400;
+      line-height: 85px;
+      margin: 50px 0;
+    }
+    .btn-send-email {
+      margin: 50px 0 50px -10px;
+      width: 180px;
+      height: 50px;
+      border-radius: 0 25px 25px 0;
+      background-color: $color-3;
+      outline: none;
+      color: $color-2;
+      text-transform: uppercase;
+      font-family: $font-1;
+      font-size: 1em;
+      font-weight: 600;
+      border:1px solid $color-3;
+      @media  (max-width: 504px) {
+        border-radius: 25px;
+      }
+
+    }
+    .btn-send-email:hover {
+      color: $color-3;
+      background-color: $color-2;
+    }
+  }
+}
+
+
+
