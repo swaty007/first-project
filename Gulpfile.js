@@ -5,6 +5,7 @@ var gulp          = require('gulp'),
     minifyCSS     = require('gulp-minify-css'),
     autowatch     = require('gulp-autowatch'),
     plumber       = require('gulp-plumber'),
+    imagemin      = require('gulp-imagemin'),
     uglify        = require('gulp-uglify');
 
 
@@ -70,3 +71,10 @@ gulp.task('default',  [
     'styles',
     'watch'
 ]);
+
+gulp.task('images', function() {
+    gulp.src('img/**/*') // берем любые файлы в папке и ее подпапках
+        .pipe(imagemin()) // оптимизируем изображения для веба
+        .pipe(gulp.dest('img/')) // результат пишем по указанному адресу
+
+});
