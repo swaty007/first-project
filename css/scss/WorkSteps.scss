@@ -1,0 +1,68 @@
+html body .work-steps-screen {
+  .image-block {
+    overflow: hidden;
+    height: 300px;
+    width: 60%;
+    margin-left: 20%;
+    >img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .work-steps-container {
+    width: 450px;
+    height: 300px;
+    background-color: $color-2;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    z-index: 999;
+    bottom: 50px;
+    padding: 20px 10px 10px;
+    h2 {
+      color: $color-10;
+      font-family: $font-1;
+      font-size: 1.563em;
+      font-weight: 400;
+    }
+    p {
+      color: $color-8;
+      font-family: $font-1;
+      font-size: 0.938em;
+      font-weight: 400;
+      line-height: 27px;
+    }
+  }
+
+  .row>.col-md-12:nth-child(1){
+    .work-steps-container {
+      border-bottom: 3px solid $color-3;
+      left:1px;
+    }
+  }
+  .row>.col-md-12:nth-child(2){
+    .work-steps-container {
+      border-bottom: 3px solid $color-4;
+      right:1px;
+    }
+  }
+  .row>.col-md-12:nth-child(3){
+    .work-steps-container {
+      border-bottom: 3px solid $color-5;
+      left:1px;
+    }
+  }
+  .row>.col-md-12:nth-child(4){
+    .work-steps-container {
+      border-bottom: 3px solid $color-6;
+      right:1px;
+    }
+  }
+}
+
+@media  (max-width: 620px) {
+  html body .work-steps-screen .image-block img {display:none;}
+  html body .work-steps-screen .work-steps-container {width:100%}
+}
+
+

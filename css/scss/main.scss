@@ -1,0 +1,65 @@
+
+$color-1: rgba(38, 39, 50, 0.85);
+$color-2: #ffffff;
+$color-3: #fc5f45;
+$color-4: #38c695;
+$color-5: #b27cf5;
+$color-6: #feb960;
+$color-7: #313131;
+$color-8: #616161;
+$color-9: #f7f7f7;
+$color-10: #272727;
+$color-11: #3f404a;
+
+$font-1: 'Poppins', sans-serif;
+$font-2: 'Libre Baskerville', serif;
+$font-3: 'Sacramento', cursive;
+
+html body {
+  font-size: 16px;
+  .videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+  }
+  .videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .page-header-text {
+    color: $color-7;
+    font-family: $font-2;
+    font-size: 3.125em;
+    font-weight: 700;
+    line-height: 80px;
+    margin-top: 15vh;
+  }
+  .page-text {
+    color: $color-8;
+    font-family: $font-1;
+    font-size: 1.125em;
+    font-weight: 400;
+    line-height: 80px;
+  }
+}
+
+@import "navbar";
+@import "main-screen";
+@import "AboutUs";
+@import "OurFocus";
+@import "portfolio";
+@import "OurTeam";
+@import "4photo";
+@import "WorkSteps";
+@import "PricingTable";
+@import "Testimonials";
+@import "why-select-us";
+@import "OurBlog";
+@import "send-email";
+@import "get-it-touch";

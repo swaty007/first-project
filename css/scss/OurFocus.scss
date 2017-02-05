@@ -1,0 +1,47 @@
+.page2screen {
+  background-color: $color-9;
+}
+
+html body .page2colums {
+  margin-bottom:150px;
+  text-align: center;
+  .page2-text-h {
+    color: $color-7;
+    font-family: $font-1;
+    font-size: 1.250em;
+    font-weight: 500;
+    line-height: 80px;
+  }
+
+  .page2-text-p {
+    //min-height: 90px;
+    color: $color-8;
+    font-family: $font-1;
+    font-size: 0.938em;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .page2-imagine {
+    padding-top: 50px;
+  }
+  .page2-column{
+    background-color: $color-2;
+    min-height:350px;
+   //padding: 0;
+    // margin: 0 10px;
+  }
+
+  .page2-1column{
+    border-bottom: 3px solid $color-3;
+  }
+  .page2-2column{
+    border-bottom: 3px solid $color-4;
+  }
+  .page2-3column{
+    border-bottom: 3px solid $color-5;
+  }
+  .page2-4column{
+    border-bottom: 3px solid $color-6;
+  }
+}

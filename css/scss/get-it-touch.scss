@@ -1,0 +1,91 @@
+html body .get-it-touch-screen {
+text-align: center;
+  background: url("/Imagine/get-it-touch-screen.jpg");
+  background-size: cover;
+  input {
+    margin: 10px 0;
+  }
+  .btn-send-message {
+    margin: 50px 0;
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: $color-3;
+    outline: none;
+    color: $color-2;
+    text-transform: uppercase;
+    font-family: $font-1;
+    font-size: 1em;
+    font-weight: 600;
+    border:1px solid $color-3;
+  }
+  .btn-send-message:hover {
+    background-color: $color-2;
+    color: $color-3;
+  }
+  .container>input {
+    height:200px;
+    text-align: center;
+  }
+  .container>input:focus {
+    text-align: left;
+  }
+  .footer {
+    padding-top: 50px;
+    background-color: $color-11;
+    min-height: 200px;
+    margin-bottom: 100px;
+    width: 300px;
+    p {
+      font-size: 1.125em;
+      font-weight: 500;
+      font-family: $font-1;
+      line-height: 27px;
+    }
+    span {
+      font-family: $font-1;
+      color: #fef4f2;
+      font-size: 1.125em;
+      font-weight: 400;
+    }
+  }
+
+  .footer1 {
+    border-bottom: 3px solid $color-3;
+    padding-top: 70px;
+  }
+  .footer2 {
+    border-bottom: 3px solid $color-4;
+    text-align: left;
+    padding-left: 30px;
+    p {
+      color: $color-4;
+    }
+  }
+  .footer3 {
+    border-bottom: 3px solid $color-5;
+    text-align: left;
+    padding-left: 30px;
+    p {
+      color: $color-5;
+    }
+  }
+  .footer4 {
+    border-bottom: 3px solid $color-6;
+    a {
+      font-family: $font-1;
+      color: #fef4f2;
+      font-size: 1.125em;
+      font-weight: 400;
+      img {
+        padding: 5px 0 5px 5px;
+      }
+    }
+    p {
+      color: $color-6;
+    }
+  }
+}
+@media  (max-width: 990px) {
+  html body .get-it-touch-screen .footer {margin-bottom:0;width:100%}
+}

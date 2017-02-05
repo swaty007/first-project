@@ -1,0 +1,18 @@
+nav {
+  color: $color-1;
+}
+
+.navbar-main {
+  border-radius: 0;
+  border: none;
+  margin-bottom: 0;
+  text-align: center;
+  .nav-links {
+    color: $color-10;
+    font-family: $font-1;
+    font-size: 0.875em;
+    font-weight: 500;
+    line-height: 46px;
+  }
+
+}
