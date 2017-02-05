@@ -75,6 +75,6 @@ gulp.task('default',  [
 gulp.task('images', function() {
     gulp.src('img/**/*') // берем любые файлы в папке и ее подпапках
         .pipe(imagemin()) // оптимизируем изображения для веба
-        .pipe(gulp.dest('img/')) // результат пишем по указанному адресу
+        .pipe(gulp.dest('img1/')) // результат пишем по указанному адресу
 
 });
