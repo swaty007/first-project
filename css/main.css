@@ -7,7 +7,7 @@ html body .page-text{color:#616161;font-size:1.125em;font-weight:400;line-height
 nav{color:rgba(38,39,50,.85)}
 .navbar-main{border-radius:0;border:none;margin-bottom:0;text-align:center}
 .navbar-main .nav-links{color:#272727;font-size:.875em;font-weight:500;line-height:46px}
-html body .main-screen{background:url(/Imagine/main-screen.jpg),50% 50%;background-size:cover;height:100%}
+html body .main-screen{background:url(/first-project/img/main-screen.jpg),50% 50%;background-size:cover;height:100%}
 html body .main-screen .content-block{text-align:center}
 html body .main-screen .content-block .main-slick{margin-top:100px;text-transform:uppercase}
 html body .main-screen .content-block .main-slick .dollar-color{color:#38c695;margin-top:20px}
@@ -65,7 +65,7 @@ html body .page2colums .page2-4column{border-bottom:3px solid #feb960}
 .photo4-screen .photo-4-num,.photo4-screen .photo-4-text{color:#fefefe;line-height:80px;font-family:Poppins,sans-serif}
 .page4-comment .page4-social{margin-top:130px;margin-left:30px}
 .page4-comment .page4-social div{padding-bottom:5px}
-.photo4-screen{background:url(/Imagine/photo4background.png),50% 50%;background-size:cover;min-height:400px}
+.photo4-screen{background:url(/first-project/img/photo4background.png),50% 50%;background-size:cover;min-height:400px}
 .photo4-screen .photo-4-text{font-size:.938em;font-weight:400;opacity:.7}
 .photo4-screen .photo-4-num{font-size:1.25em;font-weight:500}
 .photo4-screen .photo-4-block{text-align:center;margin-top:70px}
@@ -101,12 +101,12 @@ html body .page6screen .btn-page6-2:hover{background-color:#fff;color:#fc5f45}
 html body .page6screen .btn-page6-3{background-color:#b27cf5;color:#fff;border:1px solid #b27cf5}
 html body .page6screen .btn-page6-3:hover{background-color:#fff;color:#b27cf5}
 .content-block-page6{text-align:center;min-height:400px}
-html body .Testimonials-screen{background:url(/Imagine/main-screen.jpg),50% 50%;background-size:cover}
+html body .Testimonials-screen{background:url(/first-project/img/main-screen.jpg),50% 50%;background-size:cover}
 html body .Testimonials-screen div>h2,html body .Testimonials-screen div>p{color:#fff}
 html body .Testimonials-screen .Testimonials-button .testimonials-tab:nth-child(2n) .testimonials-column{background-color:#fff;border-bottom:3px solid #38c695}
 html body .Testimonials-screen .Testimonials-button input{display:none}
-html body .Testimonials-screen .Testimonials-button label{width:18px;height:18px;margin:0 5px;float:left;background:url(/Imagine/testimonials-button-off.png) no-repeat}
-html body .Testimonials-screen .Testimonials-button [id^=tab]:checked+label{background:url(/Imagine/testimonials-button-on.png) no-repeat}
+html body .Testimonials-screen .Testimonials-button label{width:18px;height:18px;margin:0 5px;float:left;background:url(/first-project/img/testimonials-button-off.png) no-repeat}
+html body .Testimonials-screen .Testimonials-button [id^=tab]:checked+label{background:url(/first-project/img/testimonials-button-on.png) no-repeat}
 html body .Testimonials-screen .Testimonials-button .testimonials-tab{display:none;padding:20px 10px 10px 30px;margin-top:60px;margin-bottom:20px}
 html body .Testimonials-screen .Testimonials-button .testimonials-tab .testimonials-column{margin-top:30px;padding:10px;background-color:#fff;border-bottom:3px solid #fc5f45}
 html body .Testimonials-screen .Testimonials-button .testimonials-tab .testimonials-column p{color:#616161;font-family:Poppins,sans-serif;font-size:.938em;font-weight:400;line-height:27px}
@@ -156,7 +156,7 @@ html body .send-email-screen .send-email .btn-send-email{margin:50px 0 50px -10p
 @media (max-width:504px){html body .send-email-screen .send-email .btn-send-email{border-radius:25px}
 }
 html body .send-email-screen .send-email .btn-send-email:hover{color:#fc5f45;background-color:#fff}
-html body .get-it-touch-screen{text-align:center;background:url(/Imagine/get-it-touch-screen.jpg);background-size:cover}
+html body .get-it-touch-screen{text-align:center;background:url(/first-project/img/get-it-touch-screen.jpg);background-size:cover}
 html body .get-it-touch-screen input{margin:10px 0}
 html body .get-it-touch-screen .btn-send-message{margin:50px 0;border-radius:25px;background-color:#fc5f45;color:#fff;border:1px solid #fc5f45}
 html body .get-it-touch-screen .btn-send-message:hover{background-color:#fff;color:#fc5f45}
